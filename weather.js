@@ -267,7 +267,6 @@ function createForecastTable(min, max) {
 }
 
 function convertDate(dateStr) {
-  console.log(dateStr);
   const lang = "en-US";
   const date = new Date(`${dateStr} 00:00:00`);
   const dayNumber = date.getDate();
